@@ -1,0 +1,149 @@
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+  }
+  
+  .navbar  .logo{
+    font-family: 'Silkscreen', cursive;
+    font-size: 2rem;
+    font-weight: 900;
+    color: red;
+    padding-left: 2rem; 
+}
+  
+  .navbar .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+  
+  .navbar .links li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.3rem;
+    color: whitesmoke;
+    border: 4px solid red;
+    width: 14rem;
+    height: 4rem;
+    margin: 3rem;
+    position:relative;
+  }
+
+  .navbar .links li:before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: red;
+    top:47%;
+    animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+
+.navbar .links li:hover:before{
+  cursor: crosshair;
+  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+@keyframes out{
+      0%{
+      width:100%;
+      left: auto;
+      right: 0;
+      }
+      100%{
+      width: 0;
+      left: auto;
+      right: 0;
+      }
+  }
+  @keyframes show{
+      0%{
+      opacity:0;
+      transform:translateY(-10px);
+      }
+      100%{
+      opacity:1;
+      transform:translateY(0);
+      }
+  }
+  
+  .navbar .toggle-icon{
+    display: none
+  }
+  
+
+
+
+  @media(max-width: 768px){
+    .navbar{
+      position: relative;
+      transition: 0.5s all ease-in-out;
+    }
+  
+    .navbar.expanded{
+      height: 100vh;
+    }
+  
+    .navbar.expanded .links{
+      position: absolute;
+      top: 120px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 1;
+    }
+  
+    .navbar.expanded .links li{
+      margin: 15px 0;
+      font-size: 24px;
+    }
+  
+    .navbar .logo{
+      position: absolute;
+      top: 23px;
+      left: 20px;
+    }
+  
+    .navbar .toggle-icon{
+      display: block;
+      color: red;
+      position: absolute;
+      top: 28px;
+      right: 20px;
+    }
+  
+    .navbar .links{
+      position: absolute;
+      top: -300px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: all 0.5s ease-in-out;
+    }
+  
+    .navbar .links li{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Silkscreen', cursive;
+      font-size: 1.3rem;
+      color: whitesmoke;
+      border: 4px solid red;
+      width: 20rem;
+      height: 4rem;
+    }
+  }

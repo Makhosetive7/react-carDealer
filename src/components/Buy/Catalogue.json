@@ -1,0 +1,46 @@
+{
+    "Catalogue": [
+        {
+            "id": 10,
+            "name": "Honda",
+            "image": "https://images.pexels.com/photos/253096/pexels-photo-253096.jpeg?cs=srgb&dl=pexels-johnmark-smith-253096.jpg&fm=jpg" ,
+            "price": 1000,
+            "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure rem nobis quas sed nostrum quam adipisci a harum, porro voluptatem numquam provident esse aliquid praesentium corporis doloribus ex tenetur fugiat!"
+        },
+        {
+            "id": 11,
+            "name": "Mazda",
+            "image": "https://images.pexels.com/photos/253096/pexels-photo-253096.jpeg?cs=srgb&dl=pexels-johnmark-smith-253096.jpg&fm=jpg",
+            "price": 10000,
+            "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure rem nobis quas sed nostrum quam adipisci a harum, porro voluptatem numquam provident esse aliquid praesentium corporis doloribus ex tenetur fugiat!"
+        },
+        {
+            "id": 3,
+            "name": "BMW",
+            "image": "https://images.pexels.com/photos/253096/pexels-photo-253096.jpeg?cs=srgb&dl=pexels-johnmark-smith-253096.jpg&fm=jpg",
+            "price": 1000,
+            "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure rem nobis quas sed nostrum quam adipisci a harum, porro voluptatem numquam provident esse aliquid praesentium corporis doloribus ex tenetur fugiat!"
+        },
+        {
+            "id": 4,
+            "name": "Toyota",
+            "image": "https://images.pexels.com/photos/253096/pexels-photo-253096.jpeg?cs=srgb&dl=pexels-johnmark-smith-253096.jpg&fm=jpg",
+            "price": 1000,
+            "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure rem nobis quas sed nostrum quam adipisci a harum, porro voluptatem numquam provident esse aliquid praesentium corporis doloribus ex tenetur fugiat!"
+        },
+        {
+            "id": 5,
+            "name": "Mazda",
+            "image": "https://images.pexels.com/photos/253096/pexels-photo-253096.jpeg?cs=srgb&dl=pexels-johnmark-smith-253096.jpg&fm=jpg",
+            "price": 1000,
+            "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure rem nobis quas sed nostrum quam adipisci a harum, porro voluptatem numquam provident esse aliquid praesentium corporis doloribus ex tenetur fugiat!"
+        },
+        {
+            "id": 6,
+            "name": "VW",
+            "image": "https://images.pexels.com/photos/253096/pexels-photo-253096.jpeg?cs=srgb&dl=pexels-johnmark-smith-253096.jpg&fm=jpg",
+            "price": 1000,
+            "description": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure rem nobis quas sed nostrum quam adipisci a harum, porro voluptatem numquam provident esse aliquid praesentium corporis doloribus ex tenetur fugiat!"
+        }
+    ]
+}
