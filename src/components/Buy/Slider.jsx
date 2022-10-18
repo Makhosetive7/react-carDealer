@@ -5,41 +5,55 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 const Slider = () => {
 
-    const slideImages = [
-        {
-            image: 'https://images.pexels.com/photos/253096/pexels-photo-253096.jpeg?cs=srgb&dl=pexels-johnmark-smith-253096.jpg&fm=jpg',
-        },
-        {
-    
-            image: 'https://images.pexels.com/photos/1335077/pexels-photo-1335077.jpeg?cs=srgb&dl=pexels-mike-b-1335077.jpg&fm=jpg',
-        },
-        {
-    
-            image: 'https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg?cs=srgb&dl=pexels-garvin-st-villier-3311574.jpg&fm=jpg',
-        },
-    ];
-
     return (
         <div className="container">
     
-        <Splide>
-            {
-            slideImages.map((imgs, index) => {
-                return(
-                <SplideSlide>
-                    <div className="slider">
-                    <img src = {imgs.image} 
-                            alt = {imgs.image} />
-                            
+            <Splide className="splide">
+                <SplideSlide className="center">
+                    <div className="details">
+                        <h3>Shirley Fultz</h3>
+                        <h4>Designer</h4>
+                        <p>
+                            It's freeing to be able to catch up on customized news and not be
+                            distracted by a social media element on the same site
+                        </p>
                     </div>
                 </SplideSlide>
-                )
-            })
-            }
-        </Splide>
 
-    
-    </div>
+                <SplideSlide className="center">
+                    <div className="details">
+                        <h3>Shirley Fultz</h3>
+                        <h4>Designer</h4>
+                        <p>
+                            It's freeing to be able to catch up on customized news and not be
+                            distracted by a social media element on the same site
+                        </p>
+                    </div>
+                </SplideSlide>
+
+                <SplideSlide className="center">
+                    <div className="details">
+                        <h3>Shirley Fultz</h3>
+                        <h4>Designer</h4>
+                        <p>
+                            It's freeing to be able to catch up on customized news and not be
+                            distracted by a social media element on the same site
+                        </p>
+                    </div>
+                </SplideSlide>
+
+                <SplideSlide className="center">
+                    <div className="details">
+                        <h3>Shirley Fultz</h3>
+                        <h4>Designer</h4>
+                        <p>
+                            It's freeing to be able to catch up on customized news and not be
+                            distracted by a social media element on the same site
+                        </p>
+                    </div>
+                </SplideSlide>
+            </Splide>
+        </div>
     )
     }
 

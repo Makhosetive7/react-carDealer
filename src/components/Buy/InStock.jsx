@@ -36,6 +36,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: 'Jura', sans-serif;
 
 `
 const Heading = styled.h1`
@@ -60,6 +61,23 @@ const Details = styled.div`
   margin-left: 2rem;
   margin-right: 2rem;
 
+  h1{
+    color: red;
+    font-size: 2rem;
+  }
+
+  p{
+    color: black;
+    font-weight: 900;
+  }
+
+  a{
+    font-size: 1.5rem;
+    font-weight: 900;
+    border: 2px solid red;
+    padding: 1rem;
+    text-decoration: none;
+  }
 `
 
 export default InStock

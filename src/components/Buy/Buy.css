@@ -4,7 +4,6 @@
     border: 5px solid red;
 
 
-
 }
 img{
     width: 100%;
@@ -12,3 +11,20 @@ img{
     object-fit: cover;
 }
 
+.container{
+    background-color: yellow;
+}
+.splide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border: 4px solid red ;
+    color: blue;
+}
